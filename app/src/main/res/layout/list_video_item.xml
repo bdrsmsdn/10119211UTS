@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"  android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="10dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="10dp">
+    <VideoView
+        android:id="@+id/itemVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        />
+    <TextView
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/TittleItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="12dp"
+        android:textColor="@color/Primary"
+        android:fontFamily="@font/regular"
+        android:textSize="16sp"
+        android:text="If u could see me crying in my room"
+        android:textAlignment="center"/>
+</LinearLayout>

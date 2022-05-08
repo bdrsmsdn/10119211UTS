@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/DrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background3"
+        android:orientation="vertical">
+
+        <include layout="@layout/main_toolbar" />
+
+        <RelativeLayout
+            android:id="@+id/profile"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/styleicon"
+            android:backgroundTint="@color/Icon"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@+id/potoprofile"
+
+                android:fontFamily="@font/bold"
+                android:text="Profile"
+                android:textAlignment="gravity"
+                android:textColor="@color/Primary"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textprofile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_toRightOf="@+id/potoprofile"
+                android:fontFamily="@font/regular"
+                android:text="Hi, my name is Badra S. I'm a student of Indonesian Computer University."
+                android:textAlignment="gravity"
+                android:textColor="@color/Primary"
+                android:scrollbars="vertical"
+                android:textSize="16sp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/potoprofile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/me" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/interest"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/styleicon"
+            android:backgroundTint="@color/Primary"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/home_hobby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bold"
+                android:text="Hobby"
+                android:textColor="@color/Icon"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/home_hobby_basket"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/home_hobby"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_basket" />
+
+            <ImageView
+                android:id="@+id/home_hobby_volley"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/home_hobby"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/home_hobby_basket"
+                android:src="@drawable/ic_volley" />
+
+            <ImageView
+                android:id="@id/home_hobby_console"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/home_hobby"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/home_hobby_volley"
+                android:src="@drawable/ic_console" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/home_hobby"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/home_hobby_console"
+                android:src="@drawable/ic_mma" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/foodDrink"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/styleicon"
+            android:backgroundTint="@color/Primary"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/home_hobby_foodDrink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bold"
+                android:text="Food and Drink"
+                android:textColor="@color/Icon"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/home_hobby_nasgor"
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/home_hobby_foodDrink"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/regular"
+                android:text="Dimsum"
+                android:textAlignment="textStart"
+                android:textColor="@color/Photo"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/home_hobby_fuyunghai"
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/home_hobby_foodDrink"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@id/home_hobby_nasgor"
+                android:fontFamily="@font/regular"
+                android:text="Mie Gacoan"
+                android:textAlignment="center"
+                android:textColor="@color/Photo"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/home_hobby_bananaMilk"
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/home_hobby_foodDrink"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@id/home_hobby_fuyunghai"
+                android:fontFamily="@font/regular"
+                android:text="Matcha Latte"
+                android:textAlignment="textEnd"
+                android:textColor="@color/Photo"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/interestCitacita"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/styleicon"
+            android:backgroundTint="@color/Primary"
+            android:padding="16sp">
+
+            <TextView
+                android:id="@+id/home_hobby_citacita"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bold"
+                android:text="Future Goals"
+                android:textColor="@color/Icon"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/home_hobby_design"
+                android:layout_width="180dp"
+                android:layout_height="150dp"
+                android:layout_below="@id/home_hobby_citacita"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/regular"
+                android:text="Menjadi Anime"
+                android:textAlignment="center"
+                android:textColor="@color/Photo"
+                android:layout_centerInParent="true"
+                android:textSize="18sp" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/Text">
+
+        <include layout="@layout/main_nav_drawer" />
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

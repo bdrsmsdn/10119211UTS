@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/ic_bangun.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/ic_baseline_fastfood_24.xml" value="0.1945" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/ic_basket.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/ic_bersihbersih.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/ic_fact.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/ic_food.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/ic_home.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/ic_location.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/ic_logo.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/ic_logo2.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/ic_logoputih.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/ic_logout.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/ic_media.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/ic_mma.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/ic_more.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/ic_more_vert.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/ic_music.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/ic_profil.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/ic_welcome.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/ic_welcoming.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/onboard_indicator_inactive.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/onboarding_indicator_active.xml" value="0.2115" />
+        <entry key="..\:/10119211UTS/app/src/main/res/drawable/styleicon.xml" value="0.1945" />
+        <entry key="..\:/10119211UTS/app/src/main/res/layout/activity_daily.xml" value="0.33" />
+        <entry key="..\:/10119211UTS/app/src/main/res/layout/activity_gallery.xml" value="0.20416666666666666" />
+        <entry key="..\:/10119211UTS/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/10119211UTS/app/src/main/res/layout/activity_main.xml" value="0.17572463768115942" />
+        <entry key="..\:/10119211UTS/app/src/main/res/layout/activity_music.xml" value="0.20416666666666666" />
+        <entry key="..\:/10119211UTS/app/src/main/res/layout/activity_profile.xml" value="0.19010416666666666" />
+        <entry key="..\:/10119211UTS/app/src/main/res/layout/activity_walk_through1.xml" value="0.17" />
+        <entry key="..\:/10119211UTS/app/src/main/res/layout/item_container_onboarding.xml" value="0.19010416666666666" />
+        <entry key="..\:/10119211UTS/app/src/main/res/layout/list_friend_item.xml" value="0.19010416666666666" />
+        <entry key="..\:/10119211UTS/app/src/main/res/layout/list_gallery_item.xml" value="0.19010416666666666" />
+        <entry key="..\:/10119211UTS/app/src/main/res/layout/list_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/10119211UTS/app/src/main/res/layout/list_music.xml" value="0.19010416666666666" />
+        <entry key="..\:/10119211UTS/app/src/main/res/layout/list_video_item.xml" value="0.19010416666666666" />
+        <entry key="..\:/10119211UTS/app/src/main/res/layout/main_nav_drawer.xml" value="0.19010416666666666" />
+        <entry key="..\:/10119211UTS/app/src/main/res/layout/main_toolbar.xml" value="0.19010416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
